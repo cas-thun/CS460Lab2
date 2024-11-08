@@ -55,6 +55,13 @@ public class MainActivity extends AppCompatActivity {
         videoSnow3.videoID = "ID: 0000003";
         videoItemList.add(videoSnow3);
 
+        VideoItem videoSnow4 = new VideoItem();
+        videoSnow3.videoURL = "https://firebasestorage.googleapis.com/v0/b/swipevideolab2.appspot.com/o/20240226_194904.mp4?alt=media&token=81bfbbff-5e44-447a-a955-b2fecdb004e7";
+        videoSnow3.videoTitle = "Even More Snow";
+        videoSnow3.videoDescription = "Snowfall at the Dugmore parking lot";
+        videoSnow3.videoID = "ID: 0000004";
+        videoItemList.add(videoSnow4);
+
 
         videoViewPager.setAdapter(new VideoAdapter(videoItemList));
     }
